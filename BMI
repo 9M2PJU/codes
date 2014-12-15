@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	float a,b,c;	
+	float BMI;
+
+	printf("Please enter your weight:");
+	scanf("%f",&a);
+	printf("Please enter your height:");
+	scanf("%f",&b);
+
+	c=pow(b,2);		// it need math.h to work
+	
+	BMI=a/c;	
+
+	printf("Your BMI is %f!",BMI);
+	return(0);
+}
